@@ -3,7 +3,7 @@ import Books from "./pages/Books";
 import Detail from "./pages/Detail";
 import NoMatch from "./pages/NoMatch";
 import Nav from "./components/Nav";
-import { BrowseRouter as Router, Route, Switch, Redirect } from "react-router-dom"; 
+import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom"; 
 
 const App = () => (
   <Router>
